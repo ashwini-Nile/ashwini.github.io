@@ -159,17 +159,6 @@ background:#03a9f4;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 .container .right_side
 {
 position: relative;
@@ -227,8 +216,6 @@ font-size:16px;
 }
 
 
-
-
 .certificates ul
 {
 position:relative;
@@ -263,9 +250,6 @@ margin:10px 0;
 
 
 
-
-
-
 @media (max-width: 1000px)
 {
 .container
@@ -288,6 +272,7 @@ grid-template-columns:repeat(2,1fr);
 .about .box
 {
 flex-direction:column;
+padding-left:5px;
 }
 
 .about .box .year_clg
