@@ -164,48 +164,6 @@ background:#03a9f4;
 
 
 
-.about .box
-{
-display:flex;
-flex-direction:row;
-margin:20px 0;
-}
-
-.about .box .year_clg
-{
-min-width:150px;
-}
-
-.about .box .year_clg h5
-{
-text-transform:uppercase;
-color:#848c90;
-padding-top:3px
-}
-
-.about .box .text h4
-{
-text-transform:uppercase;
-color:#2a7da2;
-font-size:16px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -242,6 +200,33 @@ color:#333;
 }
 
 
+.about .box
+{
+display:flex;
+flex-direction:row;
+margin:20px 0;
+}
+
+.about .box .year_clg
+{
+min-width:150px;
+}
+
+.about .box .year_clg h5
+{
+text-transform:uppercase;
+color:#848c90;
+padding-top:3px
+}
+
+.about .box .text h4
+{
+text-transform:uppercase;
+color:#2a7da2;
+font-size:16px;
+}
+
+
 
 
 .certificates ul
@@ -271,6 +256,51 @@ font-weight:500;
 margin:10px 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px)
+{
+.container
+{
+margin:10px;                     
+grid-template-columns:repeat(1, 1fr);
+}
+
+.intres ul
+{
+grid-template-columns:repeat(2,1fr);
+}
+}
+
+
+
+@media (max-width: 600px)
+{
+
+.about .box
+{
+flex-direction:column;
+}
+
+.about .box .year_clg
+{
+margin-bottom:5px;
+}
+.intres ul
+{
+grid-template-columns:repeat(1,1fr);
+}
+
+
+}
 
 
 
