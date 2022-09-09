@@ -45,10 +45,10 @@ padding-right:40px;
 position:relative;
 display:flex;
 flex-direction:column;
-align-item:center;
+align-items:center;
 padding-bottom:20px;
 padding-top:20px;
-padding-left:40px;
+/*padding-left:9vw;*/
 border-bottom: 1px solid rgba(225,255,255,0.2);
 }
 
@@ -74,11 +74,11 @@ object-fit:cover;
 .prpofiletext h2
 {
 color:#fff;
-padding-right:59px;
 font-size:1.5em;
 margin-top:20px;
 text-transform:uppercase;
 text-align:center;
+align-items:center;
 font-weight:600;
 line-height:1.4em;
 }
@@ -299,6 +299,10 @@ margin-bottom:5px;
 grid-template-columns:repeat(1,1fr);
 }
 
+.prpofiletext .imgbx
+{
+align-item:center;
+}
 
 }
 
