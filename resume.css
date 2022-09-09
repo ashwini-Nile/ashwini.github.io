@@ -304,6 +304,13 @@ grid-template-columns:repeat(1,1fr);
 align-item:center;
 }
 
+body
+{
+padding-left:10vw;
+padding-right:5vw;
+}
+   
+  
 }
 
 
